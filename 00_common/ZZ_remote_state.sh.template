@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+terraform init \
+ -backend-config "storage_account_name=${TF_STATE_ACCOUNT}" \
+ -backend-config "container_name=${TF_STATE_CONTAINER_NAME}" \
+ -backend-config "key=${TF_STATE_KEY}" \
+ -backend-config "access_key=${TF_STATE_ACCESS_KEY}"

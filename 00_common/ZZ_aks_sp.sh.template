@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+export TF_VAR_aks_sp_client_id=${AKS_SP_CLIENT_ID}
+export TF_VAR_aks_sp_password=${AKS_SP_PASSWORD}
